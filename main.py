@@ -96,7 +96,7 @@ if __name__ == "__main__":
     # compressed_file = "PeterPan/PeterPan.huff"
     # decompressed_file = "PeterPan/PeterPan_output.txt"    
     
-    #----------歌詞_黃金甲----------
+    # #----------歌詞_黃金甲----------
     # input_file = "歌詞_黃金甲/歌詞_黃金甲.txt"
     # compressed_file = "歌詞_黃金甲/歌詞_黃金甲.huff"
     # decompressed_file = "歌詞_黃金甲/歌詞_黃金甲output.txt"
