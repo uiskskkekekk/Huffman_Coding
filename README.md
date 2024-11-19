@@ -1,11 +1,9 @@
 # Huffman Encoding Compression and Decompression
 
 ## 1. Programming Language and IDE
-- **Programming Language**: Python 3.10+
+- **Programming Language**: Python 3.11.7
 - **IDE**: 
   - VS Code
-  - PyCharm
-  - 或其他支援 Python 的編輯器
 
 ---
 
@@ -42,26 +40,9 @@
 ---
 
 ## 3. Compression Ratios of the Four Test Files
-| **Test File**             | **Original Size (bytes)** | **Compressed Size (bytes)** | **Compression Ratio (%)** |
+| **Test File**             | **Original Size (byte)** | **Compressed Size (byte)** | **Compression Ratio (%)** |
 |---------------------------|---------------------------|-----------------------------|---------------------------|
-| Lyrics_GangNamStyle.txt   | TBD                       | TBD                         | TBD                       |
-| PeterPan.txt              | TBD                       | TBD                         | TBD                       |
-| 歌詞_黃金甲.txt             | TBD                       | TBD                         | TBD                       |
-| 西遊記.txt                 | TBD                       | TBD                         | TBD                       |
-
-### Compression Ratio Formula:
-\[
-\text{Compression Ratio (\%)} = \left( 1 - \frac{\text{Compressed Size}}{\text{Original Size}} \right) \times 100
-\]
-
----
-
-## 4. How to Run
-### Setup
-1. 確保安裝 Python 3.10 或以上版本。
-2. 將測試文件放置在對應資料夾中，如：
-   - `Lyrics_GangNamStyle/Lyrics_GangNamStyle.txt`
-   - `PeterPan/PeterPan.txt`
-   - `歌詞_黃金甲/歌詞_黃金甲.txt`
-   - `西遊記/西遊記.txt`
-3. 確保目錄結構如下：
+| Lyrics_GangNamStyle.txt   | 1,713                       | 1,554                         | 9.28%                       |
+| PeterPan.txt              | 284,834                       | 160,321                         | 43.71%                       |
+| 歌詞_黃金甲.txt             | 948                       | 3,348                         | -253.16% 烙賽                       |
+| 西遊記.txt                 | 1,935,513                       | 852,446                         | 55.96%                       |

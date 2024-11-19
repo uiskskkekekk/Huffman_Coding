@@ -83,24 +83,23 @@ def decoding_file(input_file, output_file):
     with open(output_file, 'w', encoding='utf-8') as f:
         f.write(decoded_text)
 
-    print(f"解壓完成：{input_file} → {output_file}")
     print(f"解壓文件大小: {os.path.getsize(output_file)} byte")
 
 if __name__ == "__main__":
-    #----------Lyrics_GangNamStyle----------
-    input_file = "Lyrics_GangNamStyle/Lyrics_GangNamStyle.txt"
-    compressed_file = "Lyrics_GangNamStyle/Lyrics_GangNamStyle.huff"
-    decompressed_file = "Lyrics_GangNamStyle/Lyrics_GangNamStyle_output.txt"
+    # #----------Lyrics_GangNamStyle----------
+    # input_file = "Lyrics_GangNamStyle/Lyrics_GangNamStyle.txt"
+    # compressed_file = "Lyrics_GangNamStyle/Lyrics_GangNamStyle.huff"
+    # decompressed_file = "Lyrics_GangNamStyle/Lyrics_GangNamStyle_output.txt"
 
-    #----------PeterPan----------
-    input_file = "PeterPan/PeterPan.txt"
-    compressed_file = "PeterPan/PeterPan.huff"
-    decompressed_file = "PeterPan/PeterPan_output.txt"    
+    # #----------PeterPan----------
+    # input_file = "PeterPan/PeterPan.txt"
+    # compressed_file = "PeterPan/PeterPan.huff"
+    # decompressed_file = "PeterPan/PeterPan_output.txt"    
     
     #----------歌詞_黃金甲----------
-    input_file = "歌詞_黃金甲/歌詞_黃金甲.txt"
-    compressed_file = "歌詞_黃金甲/歌詞_黃金甲.huff"
-    decompressed_file = "歌詞_黃金甲/歌詞_黃金甲output.txt"
+    # input_file = "歌詞_黃金甲/歌詞_黃金甲.txt"
+    # compressed_file = "歌詞_黃金甲/歌詞_黃金甲.huff"
+    # decompressed_file = "歌詞_黃金甲/歌詞_黃金甲output.txt"
 
     #----------西遊記----------
     input_file = "西遊記/西遊記.txt"
